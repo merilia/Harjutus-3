@@ -18,8 +18,7 @@
 	?>
 
 	<h1>Stringid</h1>
-	<?php echo "Hello, world!"; ?>
-	<br>
+	<?php echo "Hello, world!"; ?><br>
 	<?php echo 'Lets dance!'; ?>
 
 	<?php
@@ -71,32 +70,70 @@
 
 	<h2>Täisarvud</h2>
 	<?php
-	$arv1 = 3;
-	$arv2 = 4;
-	echo ($arv1 * $arv2) * 2;
-	?>
-	<?php abs(-300) ?>
-	<br>
+		$arv1 = 3;
+		$arv2 = 4;
+		echo ($arv1 * $arv2) * 2;
+	?><br>
+	<?php echo abs(-300) ?><br>
 	<?php
-    // Viis ruudus:
-    echo pow(5, 2);
-    echo "<br>";
-    // Seitse kuubis:
-    echo pow(7, 3);
-	echo "<br>";
-    // Kolm astmel seitse:
-    echo pow(3, 7);
+	    // Viis ruudus:
+	    echo pow(5, 2);
+	    echo "<br>";
+	    // Seitse kuubis:
+	    echo pow(7, 3);
+		echo "<br>";
+	    // Kolm astmel seitse:
+	    echo pow(3, 7);
 	?><br>
 	<?php
-    // Ruutjuur 25-st:
-    echo sqrt(25);
+	    // Ruutjuur 25-st:
+	    echo sqrt(25);
 	?><br>
 	<?php
-    // Suvaline number
-    echo rand();
+	    // Suvaline number
+	    echo rand();
 
-    // Suvaline number vahemikus 5 - 130:
-    echo rand(5, 130);
+	    // Suvaline number vahemikus 5 - 130:
+	    echo rand(5, 130);
+	?>
+	<?php
+   	    $sample_nr = 45;
+	?><br>
+	<?php
+	 	$sample_nr = 45;
+	 	$sample_nr = $sample_nr + 8;
+	 	echo $sample_nr;
+	?><br>
+	<?php
+	    $sample_nr2 = 45;
+	    $sample_nr2 += 8;
+	    echo $sample_nr2;
+	?><br>
+	<?php
+	    $sample_nr2 = 45;
+	    $sample_nr2 -= 5;
+	    echo $sample_nr2;
+	?><br>
+	<?php
+	    $sample_nr3 = 45;
+	    $sample_nr3 *= 5;
+	    echo $sample_nr3;
+	    echo "<br>";
+	    $sample_nr2 = 45;
+	    $sample_nr2 /= 5;
+	    echo $sample_nr2;
+	?><br>
+	<?php
+    	echo 5 . " teksapüksid";
+	?><br>
+	<?php
+    	echo 5 + " teksapüksid";
+	?><br>
+	<?php
+    	echo 5 + "5";
+	?><br>
+	<?php
+	    echo 5 + "7 teksapüksi";
 	?>
 </body>
 </html>
