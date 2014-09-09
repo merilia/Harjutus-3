@@ -68,6 +68,36 @@
 	?>
 	<!--trim funktsioon eemaldab stringi algusest ja lõpust tühikud-->
 	<?php echo "A" . trim(" B C D E") . "F"; ?>
+
+	<h2>Täisarvud</h2>
+	<?php
+	$arv1 = 3;
+	$arv2 = 4;
+	echo ($arv1 * $arv2) * 2;
+	?>
+	<?php abs(-300) ?>
+	<br>
+	<?php
+    // Viis ruudus:
+    echo pow(5, 2);
+    echo "<br>";
+    // Seitse kuubis:
+    echo pow(7, 3);
+	echo "<br>";
+    // Kolm astmel seitse:
+    echo pow(3, 7);
+	?><br>
+	<?php
+    // Ruutjuur 25-st:
+    echo sqrt(25);
+	?><br>
+	<?php
+    // Suvaline number
+    echo rand();
+
+    // Suvaline number vahemikus 5 - 130:
+    echo rand(5, 130);
+	?>
 </body>
 </html>
 	
