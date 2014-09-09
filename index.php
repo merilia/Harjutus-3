@@ -19,7 +19,15 @@
 
 	<h1>Stringid</h1>
 	<?php echo "Hello, world!"; ?>
-	<?php echo "Let's dance!"; ?>
+	<br>
+	<?php echo 'Lets dance!'; ?>
+
+	<?php
+	    $muutuja1 = "24";
+	    $muutuja2 = "26";
+	    echo "<br>";
+	   	echo ($muutuja1 . $muutuja2);
+	?>
 </body>
 </html>
 	
