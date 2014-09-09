@@ -31,11 +31,11 @@
 
 	<h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
 	<?php
-	    $student1 = "Fränk";
-	    $student2 = "Syret";
-	    $student3 = "Triinu";
-	    $student4 = "Silja";
-	    $student5 = "Anneli";
+	    $student1 = "Fränk"
+	    $student2 = "Syret"
+	    $student3 = "Triinu"
+	    $student4 = "Silja"
+	    $student5 = "Anneli"
 	?>
 	<ul>
 	<?php
@@ -60,7 +60,7 @@
 		$age = "15";
 		echo "<br>";
 		echo "Ma olen {$age}-e aastane";
-		
+
 	//strtolower tähendab pikemalt "StringToLower" ning selle funktsiooni eesmärgiks on muuta stringi tähemärgid väikesteks tähemärkideks
 		$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
 		$lower = strtolower($source);
