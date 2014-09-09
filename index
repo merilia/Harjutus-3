@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>PHP põhitõed II</title>
+</head>
+<body>
+	<h1>Muutujad</h1>
+	<?php
+    $suhkur = 100;
+    echo $variable;
+    // Lisan veebilehitsejas parema loetavuse saamiseks reamurdmise elemendi:
+    echo "<br>";
+	?>
+	<?php
+	    $suhkur = 50;
+	    echo $suhkur;
+	?>
+</body>
+</html>
+	
