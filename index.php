@@ -56,7 +56,18 @@
 	    echo "<br>";
 	    $test = "Testin";
 		echo "$test kas interpolatsioon töötab";
+
+		$age = "15";
+		echo "<br>";
+		echo "Ma olen {$age}-e aastane";
+		
+	//strtolower tähendab pikemalt "StringToLower" ning selle funktsiooni eesmärgiks on muuta stringi tähemärgid väikesteks tähemärkideks
+		$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$lower = strtolower($source);
+		echo "<p>{$lower}</p>";
 	?>
+	<!--trim funktsioon eemaldab stringi algusest ja lõpust tühikud-->
+	<?php echo "A" . trim(" B C D E") . "F"; ?>
 </body>
 </html>
 	
