@@ -53,6 +53,9 @@
 	    $fullName = ("$firstName " . $lastName);
 
 	    echo $fullName;
+	    echo "<br>";
+	    $test = "Testin";
+		echo "$test kas interpolatsioon töötab";
 	?>
 </body>
 </html>
